@@ -1,0 +1,66 @@
+h1 {color:blue;font-family: sans-serif;}
+h2 {color:red;font-style: italic;}
+hr {border: 3px solid #2596be;border-radius: 2px;}
+a:link {color:purple;text-decoration: none;font-weight: bold;}
+p{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+#vermelho{color:red;font-weight: bold;}
+
+ul.menuv {
+    width:100%;
+    padding:0px;
+    background-color: black;
+    list-style: armenian;
+    display: flex;
+}
+
+ul.menuv li{
+    padding:14px 16px;
+    border-right:1px solid #bbb;
+    text-align: center;
+}
+ul.menuv li:hover{
+    padding:14px 16px;
+    border-right:1px solid #bbb;
+    text-align: center;
+    background-color: grey;
+}
+
+ul.menuv li.active{
+    background-color: green;
+}
+ul.menuv li.active:hover{
+    a.color: black;
+    background-color: lightgreen;
+}
+
+ul.menuv li a{
+    text-decoration: none;
+    color:white;
+}
+
+
+table.tablen{
+    border: 3px red dotted;
+    border-radius: 10px;
+    text-align: center;
+}
+
+table.tablen tr.top{
+    background-color: #008254;
+    font-weight: bold;
+    text-align: center;
+}
+
+table.tablen tr.mid{
+    text-align: center;
+    background-color: none;
+
+}
+table.tablen tr th{
+    border: 2px red dotted;
+    border-radius:10px;
+}
+table.tablen tr td{
+    border: 2px red dotted;
+    border-radius:10px;
+}
